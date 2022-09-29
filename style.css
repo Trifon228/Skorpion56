@@ -1,0 +1,29 @@
+.box{
+    width: 600px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box::before{
+    content: "";
+    background-color: rgba(0, 0 ,0 ,.25);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.text{
+    color: white;
+    position: relative;
+}
+/*
+.box::after{
+    content: "jgjnfjk";
+    font-size: 36px;
+    color: white;
+    position: relative;
+}
+*/
